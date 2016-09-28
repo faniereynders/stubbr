@@ -1,0 +1,48 @@
+﻿{
+  "Stubs": {
+    "GET /_static/css/theme.css": {
+      "Headers": {
+
+        "Content-Type": "text/css"
+      },
+      "Body": "https://docs.stormpath.com/dotnet/aspnetcore/latest/_static/css/theme.css",
+      "Status": 200
+    },
+    "GET /test.html": {
+      "Headers": {
+
+        "Content-Type": "text/html"
+      },
+      "Body": "https://docs.stormpath.com/dotnet/aspnetcore/latest/configuration.html",
+      "Status": 200
+    },
+    "GET /api/remote": {
+      "Headers": {
+        "X-Header-1": "X-Header-1-Value",
+        "X-Header-2": "X-Header-2-Value",
+        "X-Header-3": "X-Header-3-Value",
+        "Content-Type": "application/json"
+      },
+      "Body": "http://echo.jsontest.com/insert-key-here/insert-value-here/key/value",
+      "Status": 200
+    },
+    "GET /api/foo/bar": {
+      "Headers": {
+        "X-Header-1": "X-Header-1-Value",
+        "X-Header-2": "X-Header-2-Value",
+        "X-Header-3": "X-Header-3-Value",
+        "Content-Type": "application/json"
+      },
+      "Body": "./stubs/response1.json",
+      "Status": 200
+    },
+    "POST /api/foo/bar/baz": {
+      "Headers": {
+        "X-Header-3": "X-Header-3-Value",
+        "Content-Type": "application/xml"
+      },
+      "Body": "./stubs/response2.xml",
+      "Status": 201
+    }
+  }
+}

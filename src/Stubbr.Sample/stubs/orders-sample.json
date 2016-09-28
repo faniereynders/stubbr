@@ -1,0 +1,22 @@
+﻿{
+  "results": [
+    {
+      "date": "2012-04-23T18:25:43.511Z",
+      "customer": "Company 1",
+      "product": "P001",
+      "quantity": 3
+    },
+    {
+      "date": "2012-05-23T18:25:43.511Z",
+      "customer": "Company 2",
+      "product": "P002",
+      "quantity": 2
+    },
+    {
+      "date": "2013-04-23T18:25:43.511Z",
+      "customer": "Company X",
+      "product": "P003",
+      "quantity": 1
+    }
+  ]
+}

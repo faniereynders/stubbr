@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+	<config>
+
+		<Stubs Name="GET /api/people">
+			<Headers>
+				<Content-Type>application/json</Content-Type>
+			</Headers>
+			<Body>./stubs/people-sample.json</Body>
+			<Status>200</Status>
+		</Stubs>
+		<Stubs Name="GET /api/orders">
+			<Headers>
+				<Content-Type>application/json</Content-Type>
+			</Headers>
+			<Body>./stubs/orders-sample.json</Body>
+			<Status>200</Status>
+		</Stubs>
+	</config>
+	
