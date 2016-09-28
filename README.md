@@ -17,7 +17,7 @@ Or you can also manually add Stubbr to the `project.json` file
 
 ### Usage
 Using Stubbr should be easy and simple. All it requires is some configuration about the request and details on the response that must be provided. Given the following configuration within `mystubs-config.json`:
-```
+```json
 {
   "Stubs": {
     "GET /foo/bar": {
@@ -25,7 +25,7 @@ Using Stubbr should be easy and simple. All it requires is some configuration ab
         "X-Header-1": "X-Header-1-Value",
         "Content-Type": "application/json"
       },
-      "Body": "./stubs/response1.json", //this can be a remote URI too
+      "Body": "./stubs/response1.json",
       "Status": 200
     },
     "POST /api/foo/bar/baz": {
@@ -39,6 +39,7 @@ Using Stubbr should be easy and simple. All it requires is some configuration ab
   }
 }
 ```
+> Note that the `Body` can be a remote URI as well.
 
 Simply load the configuration into the configuration system of ASP.NET Core:
 
