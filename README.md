@@ -25,7 +25,7 @@ Using Stubbr should be easy and simple. All it requires is some configuration ab
         "X-Header-1": "X-Header-1-Value",
         "Content-Type": "application/json"
       },
-      "Body": "./stubs/response1.json",
+      "Body": "./stubs/response1.json", //this can be a remote URI too
       "Status": 200
     },
     "POST /api/foo/bar/baz": {
