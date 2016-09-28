@@ -1,6 +1,7 @@
 {
   "authors": [ "Fanie Reynders" ],
   "title": "Stubbr",
+  "description": "Quick stubs for ASP.NET Core",
   "version": "0.0.1-*",
 
   "dependencies": {
