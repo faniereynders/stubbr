@@ -1,4 +1,6 @@
 {
+  "authors": [ "Fanie Reynders" ],
+  "title": "Stubbr",
   "version": "0.0.1-*",
 
   "dependencies": {
